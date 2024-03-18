@@ -1,6 +1,7 @@
-html {
-  height: 100%;
-  width: 100%;
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .palestra{
@@ -28,9 +29,28 @@ html {
   height: 50px;
 }
 
-.cabecalho{
- display: flex;
- margin-left: 80%;
+.cabecalho {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    background-color: #3f3f3f;
+    align-items: center;
+    height: 8vh;
+    overflow: hidden;
+}
+
+.opcao {
+  padding: 1rem;
+  text-decoration: none;
+  color: #FFF;
+}
+.opcao:hover {
+    background-color: #FF0000;
+}
+
+.cabecalho_left, .cabecalho_right {
+    display: flex;
+    gap: 1rem;
 }
 
 .senha{
