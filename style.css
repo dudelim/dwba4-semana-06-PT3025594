@@ -26,7 +26,7 @@
 .cabecalho {
     display: flex;
     list-style: none;
-    gap: 60%;
+    gap: 50%;
     background-color: #3f3f3f;
     align-items: center;
     height: 8vh;
@@ -38,6 +38,7 @@
   text-decoration: none;
   color: #FFF;
 }
+
 .opcao:hover {
     background-color: #FF0000;
 }
@@ -56,16 +57,20 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .sejararo h1{
    text-align: center;
    margin-top: 2%;
    margin-bottom: 2%;
 }
+
 .palestra__img {
     border-radius: 50%;
     text-align: center;
-    width: 50%;
+    width: 35%;
+    margin-left: 33%; 
 }
+
 .sejararo p {
     text-align: center;
     border: 1px solid #000;
@@ -75,16 +80,20 @@
     display: flex;
     flex-direction: column;
 }
+
 .video {
     text-align: center;
 }
+
 .video iframe {
     align-self: center;
 }
+
 .vid_title{
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
 .img__bot {
     margin-top: 2%;
     margin-bottom: 2%;
