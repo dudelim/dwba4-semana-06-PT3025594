@@ -4,35 +4,29 @@
     box-sizing: border-box;
 }
 
+.title{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .palestra{
-  width: 800px;
-  height: 500px;
-  margin-left: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #000;
+  width: 50%;
+  margin-left: 30%;
+ 
 }
 
-.texto{
-  margin-left: 50px;
-}
-
-.menu{
-  margin-top: 30px;
-  display: flex;
-}
-
-.fb{
-  width: 50px;
-  height: 50px;
-}
-
-.top{
-  width: 50px;
-  height: 50px;
+.p {
+  text-align: center;
 }
 
 .cabecalho {
     display: flex;
     list-style: none;
-    gap: 5%;
+    gap: 60%;
     background-color: #3f3f3f;
     align-items: center;
     height: 8vh;
@@ -48,18 +42,51 @@
     background-color: #FF0000;
 }
 
-.cabecalho_left, .cabecalho_right {
+.cabecalho_dir {
     display: flex;
     gap: 1rem;
 }
 
-.senha{
-  margin-top: 1%;
-  margin-bottom: 1%;
+.logo {
+    background-color: green;
 }
 
-.fs{
+.sejararo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sejararo h1{
+   text-align: center;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+.palestra__img {
+    border-radius: 50%;
+    text-align: center;
+    width: 50%;
+}
+.sejararo p {
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+}
+.video {
+    text-align: center;
+}
+.video iframe {
+    align-self: center;
+}
+.vid_title{
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
+.img__bot {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 60px;
+}
