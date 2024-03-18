@@ -183,7 +183,12 @@ fieldset {
 .campo{
     width: 95%;
     height: 3rem;
-    margin: 0 .75rem;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.msg{
+  margin-bottom: 20px;
 }
 
 .input-login {

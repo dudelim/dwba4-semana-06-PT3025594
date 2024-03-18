@@ -16,9 +16,9 @@
 
   <nav class="cabecalho">
       <div class="cabecalho_esq">
-          <li class="item"><a href="../index.html" class="link">Home</a></li>
-          <li class="item"><a href="./eventos.html" class="link">Eventos</a></li>
-          <li class="item"><a href="./contato.html" class="link">Contato</a></li>
+          <li class="item"><a href="index.html" class="link">Home</a></li>
+          <li class="item"><a href="eventos.html" class="link">Eventos</a></li>
+          <li class="item"><a href="contato.html" class="link">Contato</a></li>
           <div class="dropdown">
               <button class="dropbtn">CURSOS
                 <i class="fa fa-caret-down"></i>
@@ -43,32 +43,51 @@
     </figure>
         </header>
   
-  <h1> Mande uma mensagem </h1>
+  <h1 class="msg"> Mande uma mensagem </h1>
 
   <form>
-    Nome <input name="nome"> <br/>
-    E-mail <input type="email" class="senha""> <br/>
-    Telefone <input name="celular"> (99) 99999-9999 <br/>
+  <ul>
+    <li>
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome">
+    </li>
+    <li>
+        <label for="email">Email</label>
+        <input type="text" name="email" class="campo">
+    </li>
+    <li>
+
+        <label for="telefone">Telefone (99)99999-9999</label>
+        <input type="telefone" name="telefone" class="teste">
+        </li>
+        <li> 
+            <label for="evento">Assunto</label>
+            <select name="evento">
+                <option value="">-- Selecione --</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="sugestao">Sugestão</option>
+            </select>
+        </li>
+        <li>
+            <label for="mensagem">Mensagem</label><br/>
+            <textarea name="mensagem" cols="30" rows="10" class="campo"></textarea>
+        </li>
+    </form>
+  
+  <fieldset class="opcoes">
+    <legend>Opções de resposta</legend>
+        <label for="email">E-mail</label>
+    <input type="checkbox" name="opcoes">
+    <label for="tel">Telefone</label>
+    <input type="checkbox" name="opcoes">
+
+  </fieldset>
+  
+  <li>
+    <input type="submit">
+  </li>        
+  </ul>
   </form>
-  <form>
-      Assunto: <select name="assunto" class="senha">
-        <option value="v1"> -- Selecione --</option>
-        <option value="v2">Reclamação</option>
-        <option value="v3">Sugestão</option>
-      </select> 
-    <br/>
-    Mensagem: <textarea name="mensagem"></textarea>
-
-    <fieldset class="fs">
-      <legend>Opções de Resposta</legend>
-      <input name="email" type="checkbox" value="LPII"> E-mail
-      <input name="email" type="checkbox" value="LPII"> Telefone
-    </fieldset>
-    <input type="submit" value="Inscrever"/> 
-  </form>
-
-
-
   <div>
     <a href="#">
         <img src="MoveTop.png"  class="img__bot">

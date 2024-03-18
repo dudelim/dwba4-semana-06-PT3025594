@@ -14,9 +14,9 @@
 
   <nav class="cabecalho">
       <div class="cabecalho_esq">
-          <li class="item"><a href="../index.html" class="link">Home</a></li>
-          <li class="item"><a href="./eventos.html" class="link">Eventos</a></li>
-          <li class="item"><a href="./contato.html" class="link">Contato</a></li>
+          <li class="item"><a href="index.html" class="link">Home</a></li>
+          <li class="item"><a href="eventos.html" class="link">Eventos</a></li>
+          <li class="item"><a href="contato.html" class="link">Contato</a></li>
           <div class="dropdown">
               <button class="dropbtn">CURSOS
                 <i class="fa fa-caret-down"></i>
@@ -44,10 +44,20 @@
   <h1> Entrar </h1>
 
   <form>
-      Usuário <input name="usuario" class="user">  <br/>
-      Senha <input name="menu2" type="password" class="senha"> <br/>
+      <div class="input-login">
 
-    <input type="submit" value="Entrar"/> <a href="#"> Esqueci a senha </a>
+          <label for="user">Usuário</label>
+          <input type="text" name="user">   
+      </div>
+      <div class="input-login">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha"> 
+      </div>
+      <div class="input-login login-submit">
+
+          <input type="submit">    
+          <a href="#">Esqueci a senha</a>
+      </div>
   </form>
 
 
